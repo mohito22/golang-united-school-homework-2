@@ -36,7 +36,7 @@ func (t triangle) area() float64 {
 func (c circle) area() float64 {
 	var res, r float64
 	r = float64(c)
-	res = math.Pi * math.Pow(r, 2) / 2
+	res = math.Pi * math.Pow(r, 2)
 	return res
 }
 
